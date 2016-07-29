@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default () => ({title, status, id, onToggle, onRemove}) => {
+export default () => ({todo, onToggle, onRemove}) => {
     return <div>
-        <span>{title}</span>
-        <span>[ {status ? 'DONE' : 'IN PROGRESS'} ] </span>
-        <button onClick={() => onToggle(id) }>{status ? 'S1' : 'S2'}</button>
-        <button onClick={() => onRemove(id) }>remove</button>
+        <span>{todo.title}</span>
+        <span> [{todo.status ? 'DONE' : 'WIP'}] </span>
+        <button onClick={() => onToggle(todo.id) }>toggle</button>
+        <button onClick={() => onRemove(todo.id) }>remove</button>
     </div>;
 } 

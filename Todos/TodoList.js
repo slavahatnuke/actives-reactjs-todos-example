@@ -2,6 +2,6 @@ import React from 'react';
 
 export default ({Todo}) => ({todos = []}) => {
     return <div>
-        {todos.map(todo =><Todo key={todo.id} {...todo}/>)}
+        {todos.map(todo =><Todo key={todo.id} todo={todo}/>)}
     </div>;
 } 
