@@ -20,7 +20,7 @@ import box from './Todos/box';
 render(<box.TodoApp/>, document.getElementById('app'));
 ```
 
-### Views - pure views (PW)
+### Views - pure views (PV)
 There are examples:
 
 `Todos/Todo.js` [Todos/Todo.js](Todos/Todo.js)
@@ -147,7 +147,7 @@ export default class TodoService {
 ```
 
 
-## Connect Logic to Views
+## Connect Logic to Views. (PL) <-> (PW).
 For this goal we use __box__. It allows to add service and make states for the views.
 Then we connect states to views.
 
