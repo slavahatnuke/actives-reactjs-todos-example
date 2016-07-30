@@ -20,7 +20,7 @@ import box from './Todos/box';
 render(<box.TodoApp/>, document.getElementById('app'));
 ```
 
-#### Views - pure views (PW)
+### Views - pure views (PW)
 There are examples:
 
 `Todos/Todo.js` [Todos/Todo.js](Todos/Todo.js)
