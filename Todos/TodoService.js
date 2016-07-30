@@ -10,9 +10,7 @@ export default class TodoService {
     }
 
     save(todo) {
-        if(todo.id) {
-            // nothing
-        } else {
+        if (!todo.id) {
             todo.id = this.nextId++;
             this.add(todo);
         }

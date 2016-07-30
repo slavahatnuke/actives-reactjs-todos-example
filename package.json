@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/slavahatnuke/actives-reactjs-todos-example#readme",
   "dependencies": {
-    "actives": "0.0.11",
-    "actives-react": "0.0.9",
+    "actives": "0.0.13",
+    "actives-react": "0.0.11",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
