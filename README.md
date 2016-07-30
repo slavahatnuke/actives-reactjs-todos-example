@@ -220,5 +220,5 @@ export default box;
 ### Counter example
 It an example with counter. [example](https://github.com/slavahatnuke/actives-reactjs-counter-example)
 
-##### actives
+### actives
 The main idea of [actives](https://github.com/slavahatnuke/actives)
