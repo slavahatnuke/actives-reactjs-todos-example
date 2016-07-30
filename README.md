@@ -147,7 +147,7 @@ export default class TodoService {
 ```
 
 
-## Connect Logic to Views. (PL) <-> (PW).
+## Connect Logic to Views. (PL) <-> (PV).
 For this goal we use __box__. It allows to add service and make states for the views.
 Then we connect states to views.
 
